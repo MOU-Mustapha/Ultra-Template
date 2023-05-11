@@ -1,0 +1,55 @@
+.work {
+  padding: 50px 0;
+  background-color: #fff;
+}
+.work .work-title {
+  font-size: 50px;
+  text-align: center;
+}
+.work .work-title span {
+  font-weight: normal;
+}
+.work .part-container {
+  display: flex;
+  justify-content: space-between;
+}
+.work .part {
+  margin-top: 20px;
+  flex-basis: 30%;
+  padding: 100px 0;
+  border: 1px solid #888;
+  text-align: center;
+  box-shadow: 2px 2px 5px #000;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  position: relative;
+}
+.work .part:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+.work .part .icon {
+  color: #888;
+  margin-bottom: 20px;
+}
+.work .part .part-title {
+  font-size: 25px;
+  color: #eb5424;
+  margin-bottom: 20px;
+}
+.work .part .line {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.work .part .part-desc {
+  font-size: 15px;
+  color: #888;
+  padding: 30px;
+}

@@ -1,0 +1,33 @@
+.about {
+  height: 500px;
+  background-image: url("../../../public/images/about-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about .about-info {
+  padding-top: 100px;
+  width: 500px;
+  margin-left: auto;
+}
+.about .about-info .info-title {
+  font-weight: bold;
+  font-size: 50px;
+}
+.about .about-info .info-title span {
+  font-weight: normal;
+}
+.about .about-info .info-director {
+  font-size: 40px;
+  color: #eb5424;
+  margin-bottom: 20px;
+}
+.about .about-info .info-desc {
+  color: #000;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+.about .about-info .info-desc a {
+  text-decoration: none;
+  color: #eb5424;
+}
